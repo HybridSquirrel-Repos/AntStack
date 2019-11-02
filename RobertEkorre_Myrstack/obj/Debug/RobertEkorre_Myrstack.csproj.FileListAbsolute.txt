@@ -1,0 +1,28 @@
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe.config
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.pdb
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csprojAssemblyReference.cache
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csproj.CoreCompileInputs.cache
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.exe
+D:\Projects\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.pdb
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe.config
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.pdb
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csprojAssemblyReference.cache
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csproj.CoreCompileInputs.cache
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.exe
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\ekorre132\RobertEkorre_Myrstack\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.pdb
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe.config
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.pdb
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csprojAssemblyReference.cache
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csproj.CoreCompileInputs.cache
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.exe
+G:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.pdb
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe.config
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.exe
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\bin\Debug\RobertEkorre_Myrstack.pdb
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csprojAssemblyReference.cache
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.csproj.CoreCompileInputs.cache
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.exe
+D:\FOLDER THAT DOES NOT BELONG HERE\ProgramingProjects\RobertEkorre_Myrstack\obj\Debug\RobertEkorre_Myrstack.pdb
