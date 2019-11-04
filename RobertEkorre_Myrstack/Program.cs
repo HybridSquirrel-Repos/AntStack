@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * Robin:
+ * Onödiga using statements. De gör inget rent prestandamässigt att de finns med här,
+ * men det är snyggare om man tar bort de! Den som är värd att tänka på är
+ * System.Text. Du använder den i din kod, men du använder där hela sökvägen
+ * t.ex. System.Text.StringBuilder = new etc... Detta leder till att ditt
+ * using statement inte används. Du hade kunnat ta bort System.Text innan du 
+ * skapar din stringbuilder och ha kvar using här för att göra den delen av koden
+ * lite mer lättläst.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,9 +25,17 @@ namespace RobertEkorre_Myrstack
             Console.WriteLine("Welcome To The Ant Nest \nType \"Help\" or \"-h\" to see Commands and what they do\n");
             bool a = true;
 
+            /*
+             * Robin:
+             * Antar att singleAnt skapades för att testa saker?
+             */
             Ant singleAnt = new Ant(null, 0);
             Program p = new Program();
 
+            /*
+             * Robin:
+             * Intressant val att lägga loopen i Main funktionen.
+             */
             while (a)
             {
                 Console.Write(">$ ");
@@ -51,12 +69,24 @@ namespace RobertEkorre_Myrstack
         }  
     }
 
+    /*
+     * Robin:
+     * Den här klassen känns lite överflödig då den endast har en variabel och ingen 
+     * funktionalitet. Det känns som att du var påväg att skapa en klass som sköter
+     * arbetet mot listan, men slutade halvvägs och istället lät Command klassen sköta 
+     * allt arbete.
+     */
     class ListManager
     {
         public List<Ant> AntList = new List<Ant>();
 
     }
 
+    /*
+     * Robin:
+     * Klassen heter Command, men vad jag kan se så gör den mycket mer än att hantera 
+     * kommandon.
+     */
     class Command
     {
         ListManager LM = new ListManager();
@@ -99,6 +129,10 @@ namespace RobertEkorre_Myrstack
                 Find();
 
             }
+            /*
+             * Robin:
+             * ???
+             */
             else if (input == "")
             {
 
@@ -132,6 +166,14 @@ namespace RobertEkorre_Myrstack
         public bool nameAccepted = false;
         public bool legsAccepted = false;
 
+        /*
+         * Robin:
+         * Jag är fundersam över variabeln createContinue. Vad jag kan se så fyller den 
+         * ingen direkt funktion i detta sammanhang. Den kan dock fylla en estetisk
+         * fuktion och göra koden mer läsbar, men även det är jag fundersam på om den gör
+         * med tanke på att du inte använder en motsvarande variabel i den första while-
+         * loopen. Värt att fundera på rent stilistiskt.
+         */
         public void Create() // Checks input with MAXNAMELENGHT and then checks with the ant list if both criterias are acived it continues
         {
             bool createContinue = true;
@@ -165,6 +207,11 @@ namespace RobertEkorre_Myrstack
                         continue;
                     }
                     System.Text.StringBuilder sb = new System.Text.StringBuilder(createNameInput);
+                    /*
+                     * Robin:
+                     * Behöver inte använda System. nedan eller System.Text ovan. Se kommentaren längst upp
+                     * för mer info.
+                     */
                     if (System.Char.IsLower(sb[0]) == true)
                     {
                         sb[0] = System.Char.ToUpper(sb[0]);
@@ -246,6 +293,10 @@ namespace RobertEkorre_Myrstack
             Console.WriteLine("If the count is zero please press enter to exit and then create and ant");
             Console.WriteLine("Enter a ID: ");
 
+            /*
+             * Robin:
+             * Vad står rm för? Enda stället vad jag kan se att du använt en förkortning.
+             */
             string rmInput;
             int rmint;
             rmInput = Console.ReadLine();
@@ -283,6 +334,13 @@ namespace RobertEkorre_Myrstack
 
         }
 
+        /*
+         * Robin:
+         * Snygg metod! Det går inte att lägga till 2 myror med samma namn vad jag kan se,
+         * däremot så går det att lägga till en myra med en siffra som namn. Detta leder till 
+         * att man kan hamna i situationer där vissa myror inte går att nå. Detta är dock ett
+         * väldigt litet problem.
+         */
         public void Find()// trys to convert input to int if not it will search by name
         {
             Console.WriteLine("Please enter a name or number of legs to find an ant \nIf it does not show anything there arnt any ants with the name or legs\n");
@@ -316,3 +374,24 @@ namespace RobertEkorre_Myrstack
         }
     }
 }
+
+
+/*
+ * Robin:
+ * Snyggt jobbat! Jag hittar inga större problem, så de flesta kommentarer som jag skrivit 
+ * är detaljer och stilistiska åsikter. Gör med de som du vill.
+ * 
+ * Du har en tydlig och konsekvent kodningsstil, med bra beskrivande namngivning. Jag kan
+ * rekommendera till framtiden att du funderar över vad som borde vara klass och inte 
+ * och vad du vill att klasserna ska göra. Jag skulle även titta över vad som behöver 
+ * vara en variabel och inte. 
+ * 
+ * Jag kan rekommendera extra läsning kring att deklarera variabler inline om det är något 
+ * som intresserar dig!
+ * 
+ * Det har varit väldigt kul att se dig arbeta med uppgiften på lektionerna. Det märks att du
+ * har en del förkunskap kring programmering när jag hör dig prata om de problem som uppstår,
+ * och det märks i din kod att du funderar mycket och försöker lösa problem självständigt.
+ * 
+ * Fortsätt så här!
+ */
