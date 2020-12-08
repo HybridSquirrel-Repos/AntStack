@@ -1,5 +1,5 @@
 ﻿/*
- * Robin:
+ * Teacher:
  * Onödiga using statements. De gör inget rent prestandamässigt att de finns med här,
  * men det är snyggare om man tar bort de! Den som är värd att tänka på är
  * System.Text. Du använder den i din kod, men du använder där hela sökvägen
@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RobertEkorre_Myrstack
+namespace Antstack
 {
     class Program
     {
@@ -26,14 +26,14 @@ namespace RobertEkorre_Myrstack
             bool a = true;
 
             /*
-             * Robin:
+             * Teacher:
              * Antar att singleAnt skapades för att testa saker?
              */
             Ant singleAnt = new Ant(null, 0);
             Program p = new Program();
 
             /*
-             * Robin:
+             * Teacher:
              * Intressant val att lägga loopen i Main funktionen.
              */
             while (a)
@@ -70,7 +70,7 @@ namespace RobertEkorre_Myrstack
     }
 
     /*
-     * Robin:
+     * Teacher:
      * Den här klassen känns lite överflödig då den endast har en variabel och ingen 
      * funktionalitet. Det känns som att du var påväg att skapa en klass som sköter
      * arbetet mot listan, men slutade halvvägs och istället lät Command klassen sköta 
@@ -83,7 +83,7 @@ namespace RobertEkorre_Myrstack
     }
 
     /*
-     * Robin:
+     * Teacher:
      * Klassen heter Command, men vad jag kan se så gör den mycket mer än att hantera 
      * kommandon.
      */
@@ -130,7 +130,7 @@ namespace RobertEkorre_Myrstack
 
             }
             /*
-             * Robin:
+             * Teacher:
              * ???
              */
             else if (input == "")
@@ -167,7 +167,7 @@ namespace RobertEkorre_Myrstack
         public bool legsAccepted = false;
 
         /*
-         * Robin:
+         * Teacher:
          * Jag är fundersam över variabeln createContinue. Vad jag kan se så fyller den 
          * ingen direkt funktion i detta sammanhang. Den kan dock fylla en estetisk
          * fuktion och göra koden mer läsbar, men även det är jag fundersam på om den gör
@@ -208,7 +208,7 @@ namespace RobertEkorre_Myrstack
                     }
                     System.Text.StringBuilder sb = new System.Text.StringBuilder(createNameInput);
                     /*
-                     * Robin:
+                     * Teacher:
                      * Behöver inte använda System. nedan eller System.Text ovan. Se kommentaren längst upp
                      * för mer info.
                      */
@@ -294,7 +294,7 @@ namespace RobertEkorre_Myrstack
             Console.WriteLine("Enter a ID: ");
 
             /*
-             * Robin:
+             * Teacher:
              * Vad står rm för? Enda stället vad jag kan se att du använt en förkortning.
              */
             string rmInput;
@@ -335,7 +335,7 @@ namespace RobertEkorre_Myrstack
         }
 
         /*
-         * Robin:
+         * Teacher:
          * Snygg metod! Det går inte att lägga till 2 myror med samma namn vad jag kan se,
          * däremot så går det att lägga till en myra med en siffra som namn. Detta leder till 
          * att man kan hamna i situationer där vissa myror inte går att nå. Detta är dock ett
@@ -377,7 +377,7 @@ namespace RobertEkorre_Myrstack
 
 
 /*
- * Robin:
+ * Teacher:
  * Snyggt jobbat! Jag hittar inga större problem, så de flesta kommentarer som jag skrivit 
  * är detaljer och stilistiska åsikter. Gör med de som du vill.
  * 
