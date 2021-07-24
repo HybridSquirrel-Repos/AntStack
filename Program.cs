@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Teacher:
  * Onödiga using statements. De gör inget rent prestandamässigt att de finns med här,
  * men det är snyggare om man tar bort de! Den som är värd att tänka på är
