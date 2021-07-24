@@ -1,0 +1,16 @@
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/AntStackV2
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/AntStackV2.deps.json
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/AntStackV2.runtimeconfig.json
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/AntStackV2.runtimeconfig.dev.json
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/AntStackV2.dll
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/ref/AntStackV2.dll
+/home/squirrel/Projects/AntStack/bin/Debug/net5.0/AntStackV2.pdb
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.csproj.AssemblyReference.cache
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.GeneratedMSBuildEditorConfig.editorconfig
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.AssemblyInfoInputs.cache
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.AssemblyInfo.cs
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.csproj.CoreCompileInputs.cache
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.dll
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/ref/AntStackV2.dll
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.pdb
+/home/squirrel/Projects/AntStack/obj/Debug/net5.0/AntStackV2.genruntimeconfig.cache
