@@ -6,21 +6,16 @@ namespace AntStackV2
 {
     class Program
     {
-         List<Ant> antNest = new();
-
+        List<Ant> antNest = new();
         static void Main()
         {
-            
             Program program = new Program();
-
-            //Entry to the Antstack
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Welcome To The Ant Nest \nType \"help\" to see Commands and what they do\n");
 
             while (true)
             {
                 string input = Console.ReadLine().ToLower();
-
                 switch (input)
                 {
                     case "help":
@@ -42,9 +37,7 @@ namespace AntStackV2
                             Ant ant = program.Find(findName, false);
                             if (ant != null)
                             {
-                                Console.WriteLine(ant.GetName());
-                                Console.WriteLine(ant.GetLegs());
-                                Console.WriteLine(ant.GetID());
+                                Console.WriteLine(ant.GetName() + ", " + ant.GetLegs() + ", " + ant.GetID());
                             }
                             else { Console.WriteLine("Can't find the ant!"); }
                         }
@@ -56,19 +49,26 @@ namespace AntStackV2
                         program.Create();
                         break;
                     case "list":
-                        //List method here
+                        foreach (var ant in program.antNest)
+                        {
+                            Console.WriteLine(ant.GetName() + ", " + ant.GetLegs() + ", " + ant.GetID());
+                        }
                         break;
                     default:
                         Console.WriteLine("Invalid command");
                         break;
                 }
             }
-            
         }
         
         void Remove()
         {
-
+            Console.WriteLine("Enter ant id to remove it from ant nest: ");
+            if (Int32.TryParse(Console.ReadLine(), out var id))
+            {
+                try { antNest.RemoveAt(id); }
+                catch { Console.WriteLine("Could not remove"); }
+            }
         }
 
         Ant Find(string antName, bool callCreation) //Debugging is needed 
@@ -81,7 +81,6 @@ namespace AntStackV2
                     return ant;
                 }
             }
-
             return null;
         }
 
@@ -89,16 +88,12 @@ namespace AntStackV2
         {
             bool init = false;
             var singleAnt = new Ant();
-            
             while (true)
             {
-
                 if (!init)
                 {
                     Console.WriteLine("Enter the ant's name:");
-                        
                     string nameInput = Console.ReadLine().ToLower();
-                        
                     bool isValid = string.IsNullOrEmpty(nameInput) || nameInput.Any(char.IsDigit);
                     if (isValid || null == Find(nameInput, true))
                     { 
@@ -109,9 +104,7 @@ namespace AntStackV2
                 else
                 {
                     Console.WriteLine("Enter legs amount:");
-
-                    string legsInput = Console.ReadLine();
-                    if (Int32.TryParse(legsInput, out var legs) && legs > 0)
+                    if (Int32.TryParse(Console.ReadLine(), out var legs) && legs > 0)
                     {
                         singleAnt.SetLegs(legs);
                         antNest.Add(singleAnt);
@@ -119,11 +112,7 @@ namespace AntStackV2
                     }
                     Console.WriteLine("Ant can't have zero or minus legs!");
                 }
-                
-                
             }
         }
-        
-        
     }
 }
